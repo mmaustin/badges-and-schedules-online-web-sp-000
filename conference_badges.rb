@@ -3,7 +3,7 @@ attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
-badge_maker("Arel")
+#badge_maker("Arel")
 
 def batch_badge_creator(attendees)
   badges = []
@@ -22,4 +22,4 @@ def assign_rooms(attendees)
   end
   return room_assignments
 end
-assign_rooms(attendees)
+#assign_rooms(attendees)
