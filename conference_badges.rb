@@ -23,3 +23,13 @@ def assign_rooms(attendees)
   return room_assignments
 end
 #assign_rooms(attendees)
+
+def printer(attendees)
+  puts badge_maker(attendees)
+  puts assign_rooms(attendees)
+end
+printer(attendees)
+
+
+
+
