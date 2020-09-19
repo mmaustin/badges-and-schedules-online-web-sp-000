@@ -29,7 +29,3 @@ def printer(attendees)
   puts assign_rooms(attendees)
 end
 printer(attendees)
-
-
-
-
